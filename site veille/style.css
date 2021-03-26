@@ -1,0 +1,80 @@
+
+body{
+    overflow-x: hidden;
+}
+
+
+.headmenu{
+    color:355598 !important;
+    font-family: 'Train One', cursive !important;
+    font-size: 20px !important;
+}
+.logosv{
+    width: 100px !important;
+    height: 100px !important;
+}
+.title1{
+    font-family: Roboto  !important;
+font-style: normal !important;
+font-weight: bold !important;
+font-size: 27px !important;
+line-height: 47px !important;
+
+color: #51D5EC !important;
+}
+.pr1{
+    font-family: Roboto Mono !important;
+font-style: normal !important;
+font-weight: 300 !important;
+font-size: 17px !important;
+line-height: 40px !important;
+
+
+}
+.line{
+background-color: #51D5EC ;
+}
+.navigation-link{
+    border: 2px solid transparent;
+}
+.navigation-link:hover{
+    border-bottom:  2px solid #82E2F4;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+#section1{
+    background-image: url(photo_2021-03-24_12-45-35.jpg) ;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 1290px;
+   overflow-x: hidden;
+}
+.btn1{
+ width: 50% !important;
+ height: 50% !important;
+background: #355598  !important;
+box-sizing: border-box !important;
+border-radius: 45px !important;
+outline: none !important;
+}
+
+
+.bntx{
+    cursor: not-allowed;
+    pointer-events: none;
+}
+#result {
+    position: absolute;
+    margin-top: 100px;
+    width: 100%;
+    max-width:870px;
+    cursor: pointer;
+    overflow-x: auto;
+    max-height: 400px;
+    box-sizing: border-box;
+    z-index: 1001;
+   }
+  
+  
+  
