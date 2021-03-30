@@ -57,24 +57,36 @@ background: #355598  !important;
 box-sizing: border-box !important;
 border-radius: 45px !important;
 outline: none !important;
+
+
+
 }
 
 
 .bntx{
     cursor: not-allowed;
     pointer-events: none;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
 }
-#result {
-    position: absolute;
-    margin-top: 100px;
-    width: 100%;
-    max-width:870px;
-    cursor: pointer;
-    overflow-x: auto;
-    max-height: 400px;
-    box-sizing: border-box;
-    z-index: 1001;
-   }
+#img{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.30) !important;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.30) !important;
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.30) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
   
   
   
