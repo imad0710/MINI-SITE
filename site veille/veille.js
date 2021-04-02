@@ -6,8 +6,8 @@
     let myObject={
       Titre:req.query.Titre,
      date_exposé:req.query.date_exposé,
-     line:req.query.line,
-     Réailiser:req.query.Réailiser
+     line:req.query.line,Réailiser:req.query.Réailiser
+     
      }
     let data = fs.readFileSync('veille1.json');
     let users = JSON.parse(data);
